@@ -12,7 +12,11 @@ The goal of this task is to create a simple full-stack application that demonstr
    - Review the [Pinecone Documentation](https://docs.pinecone.io/) and [Getting Started Guide](https://docs.pinecone.io/docs/quickstart).
 
 2. **AI Model for Embeddings**:
-   - Choose a simple AI model to generate embeddings for text data (consider [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) or [Gemini](https://ai.google.dev/gemini-api/docs)).
+   - Choose a simple AI model to generate embeddings for text data. **Recommended options:**
+     - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) - Requires paid API key
+     - [Gemini Embeddings](https://ai.google.dev/gemini-api/docs) - **FREE option** 🎉
+       - Get your free API key: [Google AI Studio](https://aistudio.google.com/apikey)
+       - Embedding documentation: [Gemini Embeddings Guide](https://ai.google.dev/gemini-api/docs/embeddings)
    - Implement functionality to take in text and generate embeddings using the selected model.
 
 3. **Spring Boot Backend**:
